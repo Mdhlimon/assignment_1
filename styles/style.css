@@ -2,16 +2,21 @@
     margin: 0;
     font-family: 'Work Sans', sans-serif;
 }
-.head {
-    margin: 216px 226px;
+.bg-img{
+    background-image: url(/assignment-1/image/banner2.png);
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: 1600px 808px;
+    top: 0px;
+    background-position: center;
 }
 .nav-head {
     list-style: none;
     text-align: right;
     list-style: none;
-    margin-top: 216px;
-    margin-right: 230px;
-
+    padding-top: 216px;
+    padding-right: 230px;
+    padding-bottom: 100px;
 }
 
 .heading {
@@ -37,9 +42,126 @@
     font-size: 20px;
     text-align: center;
     display: inline-block;
-    color: width: 160px;
+    color :#FFFFFf;
+    width: 160px;
     height: 64px;
     width: 160px;
     background: #F15B22;
     border-radius: 5px;
+}
+.body-disc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1072px;
+    height: 723px;
+    margin: auto;
+    margin-top: 130px;
+}
+.discript{
+    padding-left: 100px;
+}
+.my-favour{
+    font-weight: 700;
+    font-size: 40px;
+line-height: 47px;
+}
+.fav-content{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.five-line{
+    color: #444343;
+    padding-bottom: 10px;
+}
+.my-plan{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+.my-plan-head{
+    margin-top: 130px;
+    margin-left: 230px;
+    height: 300px;
+    width: 1141px;
+}
+.plan{
+    text-align: center;
+    font-size: 40px;
+    color: #151414;
+    padding-bottom: 50px;
+}
+.last-div{
+    background-image: url(/assignment-1/image/watch.png);
+    background-size: cover;
+    margin: 125px auto ;
+    width: 1140px;
+    height: 300px;
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
+}
+.last-div-content{
+    color: #FFFFFF;
+    width: 450px;
+    height: 150px;
+    padding-left: 64px;
+    padding-top: 60px;
+}
+.positive{
+    font-weight: 700;
+    font-size: 40px;
+    padding-bottom: 24px;
+}
+.last-bt{
+    width: 160px;
+    height: 64px;
+    background-color: #FFFFFF;
+    font-size: 20px;
+    border-radius: 5px;
+    color: #F15B22;
+}
+.footer-div{
+    width: 1600px;
+    height: 577px;
+    display: flex;
+    background-color: #151414;
+    color: #F8F8F8;
+    justify-content: space-between;
+}
+.div-1{
+    padding-top: 130px;
+    padding-left: 203px;
+}
+.dis-1-div{
+    padding: 16px 0px;
+}
+.phone{
+    padding: 16px 0px;
+}
+.div-icon{
+    display: flex;    
+}
+.div-icon p{
+    margin-right: 17px;
+}
+.div-2{
+    padding-top: 130px;
+    padding-right: 300px;
+}
+.div-2 input{
+    background-color: #151414;
+    color: #F3F3F3;
+    height: 50px;
+    width: 300px;
+    margin: 31px 0px 16px 0px ;
+
+}
+.div-2 button{
+    background-color: #FFFFFF;
+    color: #e44405;
+    padding: 20px 36px;
+    font-size: 20px;
+    border-radius: 8px;
+    font-weight: 700px;
 }
